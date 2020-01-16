@@ -1,0 +1,33 @@
+h1 {
+  font-size: 4em;
+  color: #edd900;
+}
+body {
+  background-color: #275c27;
+  text-align: center;
+}
+button {
+  background-color: #980000;
+  border-color: #000000;
+  color: #ffffff;
+  padding: 1em 3em 1em 3em;
+  font-size: 1em;
+  margin: 2em;
+  text-transform: uppercase;
+  border-radius: 7%;
+}
+button:hover {
+  background-color: #c91313;
+}
+div {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0em 15em 0em 15em;
+  padding: 2em;
+}
+img {
+  background-color: #ffffff;
+  width: 20%;
+  border-radius: 7%;
+  margin: 2em;
+}
