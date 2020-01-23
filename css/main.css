@@ -1,28 +1,24 @@
+body {
+  background-color: #275c27;
+  text-align: left;
+}
 h1 {
   font-size: 4em;
   color: #edd900;
   text-align: center;
 }
-h2 {
-  font-size: 2.5em;
-  color: #ffffff;
-  margin-left: 5%;
+.dice {
+  border: 0.5em solid black;
+  background-color: white;
+  width: 30%;
 }
-body {
-  background-image: url(/img/dice6.svg);
-  background-color: #275c27;
-  background-repeat: no-repeat;
-  background-size: 35em;
-  background-position-x: center;
-  text-align: left;
-}
+
 button {
   background-color: #980000;
   border-color: #000000;
   color: #ffffff;
   padding: 1em 3em 1em 3em;
   font-size: 1em;
-  margin: 2em;
   text-transform: uppercase;
   border-radius: 7%;
 }
