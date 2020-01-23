@@ -1,47 +1,37 @@
-// First you will have to store all the sides of the dice as options for the button
-// Then you will make the button function for every time it is clicked
-// The button will have a total of 6 options for every time it is clicked
+// 1. First you will have to store all the sides of the dice as options for the button
 
-// ******************************************************
-// ********************* VARIABLES **********************
-// ******************************************************
 
-// List all the sides of the dice as variables
-let diceOne = 1
-let diceTwo = 2
-let diceThree = 3
-let diceFour = 4
-let diceFive = 5
-let diceSix = 6
+// 2. Then you will make the button function for every time it is clicked
 
-console.log(`dice(${diceOne}, ${diceTwo}, ${diceThree}, ${diceFour}, ${diceFive}, ${diceSix})`)
 
-//let diceOne = Math.floor(Math.random() * 6);
 
-// FIND THE BUTTON
-let rollBtn = document.querySelector ('#rollBtn')
+// 3. The button will have a total of 6 options for every time it is clicked
 
-// ASSIGN CLICK LISTENER TO BUTTON & OUTPUT MSG TO TEST
-rollBtn.addEventListener=('click', (event)=> {
-  console.log('!Click!')
-})
-
-//CHANGE THE DICE IMAGE
-
-// A) find the img
-let bodyElement = document.querySelector ('img')
-
-// B) Assign an img to the backgroundColor property
-// bodyElement.img.src = 'img/dice2.svg';
 
 // B) Assign a color to the backgroundColor property
-dice.setAttribute('img','src','img/dice2.svg')
+//bodyElement.style.backgroundImage = 'img/dice2.svg';
+  //dice.setAttribute('img','src','img/dice2.svg')
 
-// ******************************************************
-// ********************* FUNCTIONS *********************
-// ******************************************************
+/*/Problem A
+: Roll a random interger between 1 and 6
+*/
 
+let roll = 5;
 
-// ******************************************************
-// ****************** APPLICATION CODE ******************
-// ******************************************************
+/* Problem B
+: Change the output to show: You rolled 5
+1. Find the element (the whole output or just the number)
+2. Change the contents of the element to reflect a new value
+*/
+
+/* Problem C
+Change the dice image to match the roll
+1. Find the img element
+2. Change the src attribute's url to match the dice roll
+*/
+
+/* Problem D: 
+When the button is clicked, re-roll the dice
+1. Find the <button> element
+2. Add a click listener that will run all previous steps again
+*/

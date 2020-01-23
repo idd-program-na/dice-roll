@@ -1,6 +1,6 @@
 body {
   background-color: #275c27;
-  text-align: left;
+  text-align: center;
 }
 h1 {
   font-size: 4em;
@@ -20,8 +20,24 @@ button {
   padding: 1em 3em 1em 3em;
   font-size: 1em;
   text-transform: uppercase;
-  border-radius: 7%;
+  margin: 2em;
+
 }
+
 button:hover {
   background-color: #c91313;
+}
+
+img{
+  display: block;
+  background-color: white;
+  max-width: 50%;
+  margin: 0% 25% 0% 25%;
+  border-radius: 10%;
+}
+
+.diceImg{
+  font-size: 2em;
+  color: white;
+  margin-top: 1em;
 }

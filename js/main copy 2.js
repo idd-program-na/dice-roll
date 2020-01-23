@@ -5,13 +5,11 @@
 
 let rollBtn = document.querySelector ('#rollBtn')
 
+let randomNum = Math.ceil(Math.random()*6);
+console.log(`You rolled ${randomNum}`);
+
 rollBtn.addEventListener=('click', (event)=> {
-  let diceOne = Math.cell(Math.random() * 6);
-  let diceTwo = Math.cell(Math.random() * 6);
-  let diceThree = Math.cell(Math.random() * 6);
-  let diceFour = Math.cell(Math.random() * 6);
-  let diceFive = Math.cell(Math.random() * 6);
-  let diceSix = Math.cell(Math.random() * 6);
+  let diceOne = Math.ceil(Math.random() * 6);
 
   console.log(`dice(${diceOne}, ${diceTwo}, ${diceThree}, ${diceFour}, ${diceFive}, ${diceSix})`)
 

@@ -24,8 +24,6 @@ rollBtn.addEventListener(`click`, event => {
 // The button will have a total of 6 options for every time it is clicked
 // 
 
-  
-
 //STEP 3: Change the background img of the  div
 
 // A) find the div
