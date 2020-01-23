@@ -2,14 +2,16 @@
 
 // List dice sides as variables - 6 Sides
 
-let diceOne = 1;
-let diceTwo = 2;
-let diceThree = 3;
-let diceFour = 4;
-let diceFive = 5;
-let diceSix = 6;
+let diceOne = `img/dice1.svg`;
+let diceTwo = `img/dice2.svg`;
+let diceThree = `img/dice3.svg`;
+let diceFour = `img/dice4.svg`;
+let diceFive = `img/dice5.svg`;
+let diceSix = `img/dice6.svg`;
 
-console.log(`You rolled ${Math.round(Math.random() * 10)}`);
+
+console.log
+(`You rolled ${Math.round(Math.random() * 10)}`);
 
 // Then you will make the button function for every time it is clicked
 
@@ -22,13 +24,13 @@ rollBtn.addEventListener(`click`, event => {
 // The button will have a total of 6 options for every time it is clicked
 // 
 
+  
+
 //STEP 3: Change the background img of the  div
 
 // A) find the div
-
+let bodyElement = document.querySelector ('body')
 
 // B) Assign a color to the backgroundColor property
-//bodyElement.style.backgroundImage = 'img/dice2.svg';
+bodyElement.style.backgroundImage = 'img/dice2.svg';
   //dice.setAttribute('img','src','img/dice2.svg')
-
-  

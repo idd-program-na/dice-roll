@@ -1,10 +1,20 @@
 h1 {
   font-size: 4em;
   color: #edd900;
+  text-align: center;
+}
+h2 {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-left: 5%;
 }
 body {
+  background-image: url(/img/dice6.svg);
   background-color: #275c27;
-  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 35em;
+  background-position-x: center;
+  text-align: left;
 }
 button {
   background-color: #980000;
@@ -18,16 +28,4 @@ button {
 }
 button:hover {
   background-color: #c91313;
-}
-div {
-  color: #ffffff;
-  background-color: #000000;
-  margin: 0em 15em 0em 15em;
-  padding: 2em;
-}
-img {
-  background-color: #ffffff;
-  width: 20%;
-  border-radius: 7%;
-  margin: 2em;
 }
